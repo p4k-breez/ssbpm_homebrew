@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectm>
+  <game>
+    <version>3.02</version>
+    <minimumLauncherVersion>1.0</minimumLauncherVersion>
+    <codesets>
+      <!-- 
+	  
+        If you want to use custom codesets, make sure each codeset has the
+        appropriate files necessary to support switching. This is because the
+        launcher will not delete any files when switching codesets. It will
+        only copy and overwrite files.
+		
+        Note that the a full file path is supported so you may want to create 
+        another folder such as "sd:/projectm/custom/common" that contains the
+        the original versions of each replaced file.
+		
+        Also, the source and destination name do not have to match.
+        For example:
+	    
+        <file 
+        	source="sd:/projectm/custom1/BrinstarRemix.brstm"
+        	destination="sd:/projectm/pf/sound/W06.brstm"
+        	md5="1234567890ABCDEF"
+        />
+
+        Enjoy!
+		
+        -PMBR
+		
+	  -->
+      <codeset description="Full Codeset" tag="full">
+        <file 
+          source="sd:/projectm/full/common5.pac"
+          destination="sd:/projectm/pf/system/common5.pac"
+          md5="dd164cbaad1d58cb696e716446df1f07" />
+        <file 
+          source="sd:/projectm/full/mu_menumain.pac"
+          destination="sd:/projectm/pf/menu2/mu_menumain.pac"
+          md5="698bc5f8c370c5ac1e6b39f40c031496" />
+        <file
+          source="sd:/projectm/full/RSBE01.gct"
+          destination="sd:/codes/RSBE01.gct"
+          md5="05403afc174ceaad643e6b7731c8c814" />
+      </codeset>
+      <codeset description="WiFi Codeset" tag="wifi">
+        <file
+          source="sd:/projectm/wifi/common5.pac"
+          destination="sd:/projectm/pf/system/common5.pac"
+          md5="1319e7c41d3e5eeb990396c1889657fb" />
+        <file
+          source="sd:/projectm/wifi/mu_menumain.pac"
+          destination="sd:/projectm/pf/menu2/mu_menumain.pac"
+          md5="879305d242de5c2aa83e8ff413416aec" />
+        <file
+          source="sd:/projectm/wifi/RSBE01.gct"
+          destination="sd:/codes/RSBE01.gct"
+          md5="905e9c3c5df036945faefa6b6889ef12" />
+      </codeset>
+    </codesets>
+  </game>
+  <launcher />
+</projectm>

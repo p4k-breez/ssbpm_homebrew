@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+	<app version="1.0">
+		<name>Project M</name>
+		<coder>projectmgame.com</coder>
+		<version>1.03</version>
+		<release_date>201401140000</release_date>
+		<short_description>Project M Launcher</short_description>
+		<long_description>Project M
+projectmgame.com</long_description>
+	</app>
